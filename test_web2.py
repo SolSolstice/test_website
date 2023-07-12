@@ -3,9 +3,9 @@ import pandas as pd
 import plotly.express as px 
 
 
-rDF = pd.read_csv("../data/redWineDF.csv")
+rDF = pd.read_csv("data/redWineDF.csv")
 
-wDF = pd.read_csv("../data/whiteWineDF.csv")
+wDF = pd.read_csv("data/whiteWineDF.csv")
 
 app = Dash(__name__)
 server = app.server
