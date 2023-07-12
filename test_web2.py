@@ -15,7 +15,7 @@ app.layout = html.Div([
     html.Header("Graph Example", style={"fontSize":40,
                                         "textAlign":"center"}),
     dcc.Dropdown(id="mydropdown",
-                 options=rDF["quality"].unqiue(),
+                 options=rDF["quality"].unique(),
                  value = "6",
                  style={"width":"50%","margin-left":"130px","margin-top":"60px"}),
     dcc.Graph(id="scatter_plot")
